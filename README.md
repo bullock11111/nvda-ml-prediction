@@ -36,7 +36,15 @@ Engineered from raw OHLCV data:
 - Neural Network
 
 ## Results
-*To be updated upon project completion.*
+
+| Model | Test Accuracy | Test AUC |
+|---|---|---|
+| Naive Baseline | 0.532 | 0.500 |
+| Random Forest (Rico Bullock) | 0.541 | 0.534 |
+| Logistic Regression (Joy Chen) | 0.528 | — |
+| Decision Tree (Angele He) | TBD | TBD |
+| Neural Network (Blue Knutson) | 0.450 | 0.530 |
+| SVM (Ubaidillah Mohammad Razali) | TBD | TBD |
 
 ## Reproducing Results
 1. Clone the repo:
