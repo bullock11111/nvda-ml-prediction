@@ -24,9 +24,10 @@ Engineered from raw OHLCV data:
 - Lagged returns (1, 2, 3, 5 days)
 - Moving average signals (5-day, 20-day)
 - Intraday high-low range
+- Open-to-close price move
 - Rolling volatility (5-day, 10-day)
-- Volume ratio
-- RSI (14-day)
+- Volume ratio (relative to 5-day average)
+- Volume imbalance (buy vs sell pressure proxy)
 
 ## Models
 - Logistic Regression
